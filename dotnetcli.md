@@ -39,4 +39,12 @@ dotnet test project_name
 dotnet publish
 # for project
 dotnet publish project_name
+
+# adding a razorcomponent
+# name must start with a capital letter
+dotnet new razorcomponent -n name -o Pages
+
+
+# rnning in watch mode
+dotnet watch run
 ```
